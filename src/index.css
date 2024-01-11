@@ -1,0 +1,61 @@
+#showcase {
+  height: calc(100vh - 77px);
+  background: linear-gradient(#0009, #0009),
+    url("/showcase.jpg") center / cover no-repeat;
+}
+
+.avatar {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.header-bg-color {
+  background-color: rgba(18, 55, 53, 0.9);
+  border-bottom: 3px solid rgb(13, 214, 214);
+  color: white;
+}
+
+.hover:hover {
+  color: rgb(13, 214, 214);
+}
+.logout:hover {
+  cursor: pointer;
+  color: red;
+}
+.hover-effect-1:hover {
+  color: rgba(34, 63, 171, 0.9);
+}
+
+.display-color {
+  color: rgb(13, 194, 194);
+}
+
+button {
+  background-color: rgb(13, 194, 194);
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+
+.whiteBtn {
+  color: rgb(13, 194, 194);
+  background-color: white;
+}
+
+.bg {
+  background-color: rgb(13, 194, 194);
+}
+
+.post-img {
+  border-radius: 50%;
+  max-width: 150px;
+  min-width: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
